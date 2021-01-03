@@ -2,14 +2,22 @@
   "name": "my-books-list",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^6.10.11",
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/mocha-framework": "^6.10.11",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.10.11",
+    "chromedriver": "^87.0.4",
+    "wdio-chromedriver-service": "^6.0.4"
   }
 }
-

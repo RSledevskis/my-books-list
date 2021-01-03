@@ -176,7 +176,7 @@ class Schema {
         Store.removeBook(
             selectedElement.parentElement.parentNode.firstElementChild.textContent
         );
-        UI.showAlert('Book has been removed!', 'success');
+        UI.showAlert('Book Removed!', 'success');
       }
   });
 
@@ -205,7 +205,7 @@ document.querySelector('#book-form > input[value="Update info"]').addEventListen
 
       Store.updateBook(updatedBook);
       UI.clearFields();
-      UI.showAlert('Book has been updated!', 'success');
+      UI.showAlert('Book Updated!', 'success');
       UI.removeBooks();
       UI.displayBooks();
     }
